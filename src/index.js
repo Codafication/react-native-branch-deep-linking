@@ -10,7 +10,7 @@ import createBranchUniversalObject from './branchUniversalObject'
 
 const INIT_SESSION_SUCCESS = 'RNBranch.initSessionSuccess'
 const INIT_SESSION_ERROR = 'RNBranch.initSessionError'
-const INIT_SESSION_TTL = 5000
+const INIT_SESSION_TTL = Number.MAX_VALUE
 
 export const AddToWishlistEvent = "Add to Wishlist"
 export const PurchasedEvent = "Purchased"
